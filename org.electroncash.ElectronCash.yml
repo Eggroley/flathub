@@ -50,8 +50,8 @@ modules:
       - --with-libevent-dir=/app
     sources:
       - type: archive
-        url: https://dist.torproject.org/tor-0.4.8.10.tar.gz
-        sha256: e628b4fab70edb4727715b23cf2931375a9f7685ac08f2c59ea498a178463a86
+        url: https://dist.torproject.org/tor-0.4.9.11.tar.gz
+        sha256: 2e6c1720118c812acf0079fd47cf91b6bfaba5d766c321c4d3d2a28d6a11a8ed
         x-checker-data:
           type: anitya
           project-id: 1367
@@ -125,8 +125,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Electron-Cash/Electron-Cash.git
-        tag: "4.4.3"
-        commit: 124a6d9be80190b987fbb4854d9931e9073b17f2
+        tag: "4.4.6"
+        commit: 9d500949b38dd181a986382eb0c2f6061b829fec
         x-checker-data:
           type: anitya
           project-id: 10603
